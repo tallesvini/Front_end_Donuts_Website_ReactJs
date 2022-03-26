@@ -1,0 +1,163 @@
+.container {
+    height: 100vh;
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    position: absolute;
+    margin: 0% 0 0 4%;
+}
+
+/*LEFT SIDE*/
+.principal {
+    height: 100vh;
+    padding: 2%;
+}
+
+.principal h1 {
+    color: #FFFFFF;
+    font-size: 3.5em;
+    margin: 12% 0 0 5%;
+    font-weight: 450;
+}
+
+.principal h2 {
+    color: #FB6214;
+    margin: 20vh 0 0 5%;
+    font-size: 4em;
+}
+
+.principal h3 {
+    color: #FFFFFF;
+    margin-top: 1vh;
+    font-size: 2em;
+    font-weight: 350;
+}
+
+.principal p {
+    font-size: 1.3em;
+    color: #48250A;
+}
+
+.principal button {
+    border: transparent;
+    background-color: #EF0176;
+    color: #FFFFFF;
+    height: 8vh;
+    width: 11vw;
+    margin-top: 5vh;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+.principal button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 3px #FB6214;
+    color: #FB6214;
+    transition: .3s;
+}
+
+/*RIGHT SIDE*/
+.principal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal2 img {
+    width: 100%;
+    filter: drop-shadow(4px 3px 5px #808080);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 1400px) {
+    .principal h1 {
+        color: #EF0176;
+        font-size: 3.5em;
+        font-weight: 800;
+        margin-top: 38vh;
+    }
+
+    .principal h3 {
+        color: #48250A;
+    }
+
+    .principal h2 {
+        font-weight: 500;
+        font-size: 2em;
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .principal h1 {
+        font-size: 2.5em;
+        margin: 28vh 0 0 0;
+    }
+    
+    .principal h2 {
+        font-size: 2.5em;
+    }
+
+    .principal p {
+        font-weight: 350;
+    }
+
+    .principal button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .geral {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0;
+    }
+
+    .principal {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 75vh;
+    }
+
+    .principal h1 {
+        color: #EF0176;
+        margin-top: 20vh;
+        font-size: 3em;
+    }
+
+    .principal h3 {
+        font-size: 1.3em;
+    }
+
+    .principal h2 {
+        font-size: 2.5em;
+        margin: 5vh 0 0 0;
+    }
+
+    .principal button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+    }
+
+    .principal {
+        margin-bottom: 0;
+    }
+
+    .principal2 img {
+        width: 100%;
+    }
+}

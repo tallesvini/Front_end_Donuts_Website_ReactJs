@@ -1,0 +1,151 @@
+.container {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 10;
+}
+
+/*---LINKS DESKTOP---*/
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+.links button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #48250A;
+    font-size: 1em;
+    margin: 3vh 15px;
+}
+
+.links button:hover{
+    color: #EF0176;
+    transition: .3s;
+}
+
+/*mobile*/
+.mobile {
+    display: none;
+}
+
+/*cart*/
+.car {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #EF0176;
+    color: #FFFFFF;
+    height: 5vh;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.car:hover {
+    background-color: #FB6214;
+    transition: .3s;
+}
+
+.car h4 {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 0 15px 0 10px;
+    font-weight: 500;
+}
+
+/*---FOODS CATEGORIES---*/
+.categories {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    /*----LINKS DESKTOP----*/
+    .container {
+        background-color: #EF0176 !important;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .container {
+        background-color: #FFFFFF;
+    }
+
+    /*----NAV HAMBURGER----*/
+    .mobile {
+        display: block;
+        margin: 0vh 88%;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        color: #F6F6F6;
+    }
+    
+    /*links nav*/
+    .links2 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        height: 100vh;
+        width: 85%;
+        left: 40%;
+        transform: translate(-50%);
+        top: 0;
+        animation: go 1s;
+    }
+
+    .links2 p {
+        cursor: pointer;
+        text-decoration: none;
+        color: #EF0176;
+        margin-bottom: 10vh;
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+
+    .links2 p:hover {
+        color: #FB6214;
+        transition: .2s;
+    }
+    
+    /*cart*/
+    .car {
+        justify-content: center;
+        border: solid 3px #FB6214;
+        color: #FB6214;
+        background-color: transparent;
+        width: 35vw;
+        height: 8vh;
+        font-size: 1.3em;
+    }
+
+    .car:hover {
+        background-color: transparent;
+        transform: scale(1.1);
+        transition: .2s;
+    }
+
+    .car h4 {
+        color: #FB6214;
+    }
+
+    /*----ANIMATION----*/
+    @keyframes go {
+        from {
+            left: 0;
+        } 
+        
+        to {
+            left: 40%;
+        }
+    }
+}

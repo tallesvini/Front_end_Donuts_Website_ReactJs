@@ -1,0 +1,43 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text p {
+    text-transform: uppercase;
+    color: #FB6214;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    color: #EF0176;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .text p {
+        text-align: center;
+        margin-top: 55vh;
+    }
+    .text h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 425px) {
+    .text p {
+        margin-top: 20vh;
+    }
+}
