@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/donuts-website-reactjs/static/css/main.10305011.css",
+    "main.js": "/donuts-website-reactjs/static/js/main.475dc8d8.js",
+    "static/media/pic1.png": "/donuts-website-reactjs/static/media/pic1.df83e1ddea64f8edcf80.png",
+    "static/media/breakfast.png": "/donuts-website-reactjs/static/media/breakfast.861031f21de812250c3f.png",
+    "static/media/dun3.png": "/donuts-website-reactjs/static/media/dun3.228af2969d2a346dae7d.png",
+    "static/media/donuts.png": "/donuts-website-reactjs/static/media/donuts.1742256ff96616a557da.png",
+    "static/media/dun1.png": "/donuts-website-reactjs/static/media/dun1.1d089f8c733e5a4d9621.png",
+    "static/media/dun4.png": "/donuts-website-reactjs/static/media/dun4.a58922dd8922724cf131.png",
+    "static/media/iced-coffee.png": "/donuts-website-reactjs/static/media/iced-coffee.d1004fb4bb02ce6bab18.png",
+    "static/media/black-coffee.png": "/donuts-website-reactjs/static/media/black-coffee.c2c2916f770b484adca7.png",
+    "static/media/dun2.png": "/donuts-website-reactjs/static/media/dun2.5e4be8a0f49d2ca40e84.png",
+    "static/media/sand.png": "/donuts-website-reactjs/static/media/sand.aba0c0d7a7d8b20d6afd.png",
+    "index.html": "/donuts-website-reactjs/index.html",
+    "main.10305011.css.map": "/donuts-website-reactjs/static/css/main.10305011.css.map",
+    "main.475dc8d8.js.map": "/donuts-website-reactjs/static/js/main.475dc8d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10305011.css",
+    "static/js/main.475dc8d8.js"
+  ]
+}
